@@ -1,0 +1,503 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* HEADER STYLING */
+.inner{
+    width: 85vw;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(52, 240, 240);
+    padding: 20px;
+}
+.nav .center{
+    display: flex;
+    padding-top: 8px;
+}
+.home{
+    text-decoration: underline rgb(207, 33, 33);
+    color: blueviolet;
+}
+.service{
+    margin-left: 15px;
+    color: rgb(207, 33, 33);
+}
+.nav .left{
+    margin-left: 40px;
+    font-size: 25px;
+    font-weight: 800;
+    color: blueviolet;
+}
+.nav .right{
+    margin-right: 40px;
+}
+.button{
+    padding: 10px 30px;
+    color: blueviolet;
+}
+
+/* MAIN PART SECTION 1 STYLING-LEFT PART*/
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+main{
+    background-color: lightgray;
+}
+main .section-1 .heading{
+    text-align: center; 
+    margin-bottom: 30px;
+}
+
+main .section-1 .left{
+    margin-left: 150px;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border: 4px solid red;
+    text-align: center;
+    float: left;
+}
+main .section-1 .left .sidekick{
+    width: 85px;
+    height: 85px;
+    margin-left: 95px; 
+    background-color: aqua;
+    border: 5px solid green;
+    font-size: 14px;
+    padding-top: 25px;
+}
+main .section-1 .left .hero{
+    width: 85px;
+    height: 85px;
+    margin:  10px 95px;
+    background-color: orangered;
+    border: 5px solid red;
+    font-size: 20px;
+    padding-top: 25px;
+}
+main .section-1 .left .sidekick2{
+    width: 85px;
+    height: 85px;
+    margin-left: 95px;
+    background-color: aqua;
+    border: 5px solid green;
+    font-size: 14px;
+    padding-top: 25px;
+}
+
+/* SECTION-1 CENTER PART */
+
+main .section-1 .center{
+    margin: 0px 30px;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border: 4px solid red;
+    text-align: center;
+    float: left;
+}
+main .section-1 .center .sidekick{
+    width: 85px;
+    height: 85px;
+    margin:  10px 95px;
+    background-color: aqua;
+    border: 5px solid green;
+    font-size: 14px;
+    padding-top: 25px;
+}
+main .section-1 .center .hero{
+    width: 85px;
+    height: 85px;
+    background-color: orangered;
+    border: 5px solid red;
+    font-size: 20px;
+    padding-top: 25px;
+    float: left;
+}
+main .section-1 .center .sidekick2{
+    width: 85px;
+    height: 85px;
+    float: left;
+    margin-left: 10px;
+    background-color: aqua;
+    border: 5px solid green;
+    font-size: 14px;
+    padding-top: 25px;
+}
+
+/* SECTION PART 1-RIGHT PART */
+
+main .section-1 .right{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border: 4px solid red;
+    text-align: center;
+    float: left;
+}
+main .section-1 .right .sidekick{
+    width: 85px;
+    height: 85px;
+    margin:  10px 95px;
+    background-color: aqua;
+    border: 5px solid green;
+    font-size: 14px;
+    padding-top: 25px;
+}
+main .section-1 .right .hero{
+    width: 85px;
+    height: 85px;
+    float: right;
+    background-color: orangered;
+    border: 5px solid red;
+    font-size: 20px;
+    padding-top: 25px;
+}
+main .section-1 .right .sidekick2{
+    width: 85px;
+    height: 85px;
+    margin-left: 95px;
+    background-color: aqua;
+    border: 5px solid green;
+    font-size: 14px;
+    padding-top: 25px;
+}
+
+
+/* MAIN PART  SECTION-2 STYLING PART */
+
+.body{
+    margin-top: 50px;
+    background-color: white;
+}
+
+/* SECTION-2 LEFT PART */
+
+
+main .section-2 .heading{
+    text-align: center; 
+    margin-bottom: 30px;
+}
+
+main .section-2 .left{
+    margin-left: 150px;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border: 4px solid red;
+    text-align: center;
+    float: left;
+}
+main .section-2 .left .sidekick{
+    width: 85px;
+    height: 85px;
+    margin-left: 95px; 
+    background-color: aqua;
+    border: 5px solid green;
+    font-size: 14px;
+    padding-top: 25px;
+}
+main .section-2 .left .hero{
+    width: 85px;
+    height: 85px;
+    margin:  10px 95px;
+    background-color: orangered;
+    border: 5px solid red;
+    font-size: 20px;
+    padding-top: 25px;
+}
+main .section-2 .left .sidekick2{
+    width: 85px;
+    height: 85px;
+    margin-left: 95px;
+    background-color: aqua;
+    border: 5px solid green;
+    font-size: 14px;
+    padding-top: 25px;
+}
+
+/* SECTION-2 CENTER 1 PART */
+
+main .section-2 .center{
+    margin: 0px 30px;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border: 4px solid red;
+    text-align: center;
+    float: left;
+}
+main .section-2 .center .sidekick{
+    width: 85px;
+    height: 85px;
+    margin:  10px 95px;
+    background-color: aqua;
+    border: 5px solid green;
+    font-size: 14px;
+    padding-top: 25px;
+}
+main .section-2 .center .hero{
+    width: 85px;
+    height: 85px;
+    background-color: orangered;
+    border: 5px solid red;
+    font-size: 20px;
+    padding-top: 25px;
+    float: left;
+}
+main .section-2 .center .sidekick2{
+    width: 85px;
+    height: 85px;
+    float: left;
+    margin-left: 10px;
+    background-color: aqua;
+    border: 5px solid green;
+    font-size: 14px;
+    padding-top: 25px;
+}
+
+/* SECTION-2 RIGHT PART */
+
+main .section-2 .right{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border: 4px solid red;
+    text-align: center;
+    float: left;
+}
+main .section-2 .right .sidekick{
+    width: 85px;
+    height: 85px;
+    margin:  10px 95px;
+    background-color: aqua;
+    border: 5px solid green;
+    font-size: 14px;
+    padding-top: 25px;
+}
+main .section-2 .right .hero{
+    width: 85px;
+    height: 85px;
+    float: right;
+    background-color: orangered;
+    border: 5px solid red;
+    font-size: 20px;
+    padding-top: 25px;
+}
+main .section-2 .right .sidekick2{
+    width: 85px;
+    height: 85px;
+    margin-left: 95px;
+    background-color: aqua;
+    border: 5px solid green;
+    font-size: 14px;
+    padding-top: 25px;
+}
+
+/* SECTION-2 CENTER-2 */
+
+
+main .section-2 .center-2{
+    margin-left: 480px;
+    overflow: auto;
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border: 4px solid red;
+    text-align: center;
+    float: left;
+}
+main .section-2 .center-2 .sidekick{
+    width: 85px;
+    height: 85px;
+    margin-left: 95px; 
+    background-color: aqua;
+    border: 5px solid green;
+    font-size: 14px;
+    padding-top: 25px;
+}
+main .section-2 .center-2 .hero{
+    width: 85px;
+    height: 85px;
+    margin:  10px 95px;
+    background-color: orangered;
+    border: 5px solid red;
+    font-size: 20px;
+    padding-top: 25px;
+}
+main .section-2 .center-2 .sidekick2{
+    width: 85px;
+    height: 85px;
+    margin-left: 95px;
+    background-color: aqua;
+    border: 5px solid green;
+    font-size: 14px;
+    padding-top: 25px;
+}
+
+
+/* SECTION 3 START */
+
+main .colomn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .colomn .heading{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+main .colomn .item-1{
+    width: 170px;
+    height: 170px;
+    background-color: aquamarine;
+    border: 4px solid aqua;
+    text-align: center;
+    padding-top: 65px;
+    margin-bottom: 7px;
+}
+main .colomn .item-2{
+    width: 170px;
+    height: 170px;
+    background-color: aquamarine;
+    border: 4px solid aqua;
+    text-align: center;
+    padding-top: 65px;
+    margin-bottom: 7px;
+}
+main .colomn .item-3{
+    width: 170px;
+    height: 170px;
+    background-color: aquamarine;
+    border: 4px solid aqua;
+    text-align: center;
+    padding-top: 65px;
+    margin-bottom: 7px;
+}
+main .colomn .item-4{
+    width: 170px;
+    height: 170px;
+    background-color: aquamarine;
+    border: 4px solid aqua;
+    text-align: center;
+    padding-top: 65px;
+    margin-bottom: 7px;
+}
+hr{
+    margin-top: 50px;
+    margin-bottom: 70px;
+    width: 85vw;
+    background-color: red;
+    border: 2px solid red; 
+}
+
+/* SECTION-4 PART */
+
+main .section-4 .item1{
+    width: 170px;
+    height: 170px;
+    background-color: aquamarine;
+    border: 4px solid aqua;
+    text-align: center;
+    padding-top: 65px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+main .bigbox{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* section-5 part */
+
+main .container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+main .section-5 .item1{
+    width: 170px;
+    height: 170px;
+    background-color: aquamarine;
+    border: 4px solid aqua;
+    text-align: center;
+    padding-top: 65px;
+    margin-left: 5px;
+}
+main .section-5 .item3{
+    width: 520px;
+    height: 170px;
+    background-color: aquamarine;
+    border: 4px solid aqua;
+    text-align: center;
+    padding-top: 65px;
+    margin-left: 5px;
+}
+
+/* SECTION-6 PART */
+
+main .box{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+main .section-6 .item1{
+    width: 170px;
+    height: 170px;
+    background-color: aquamarine;
+    border: 4px solid aqua;
+    text-align: center;
+    padding-top: 65px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+
+/* FOOTER PART */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(52, 240, 240);
+}
+span{
+    margin-right: 35px;
+    font-size: 35px;
+    color: white;
+}
+
+.top1{
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    margin-left: 1200px;
+}
+a{
+    color: white;
+    padding-top: 20px; 
+    font-size: 30px;
+}
