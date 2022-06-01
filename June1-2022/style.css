@@ -1,0 +1,174 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* HEADER START */
+
+.inner{
+    width: 75vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header{
+    width: 100vw;
+    background-color: rgba(0, 128, 0, 0.452);
+}
+
+.h1{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:black;
+    color: white;
+    padding: 25px 25px;
+}
+
+ul{
+    display: flex;
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+li{
+    margin-right: 60px;
+    padding-top: 60px;
+} 
+
+/* MAIN PART SECTION-1 Article-1 */
+
+.box1{
+    margin-top: 20px;
+    border: 2px solid aqua;
+    padding: 0px;
+}
+
+.box1 h1{
+    margin-top: 100px;
+    margin-right:40px;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* MAIN PART SECTION-2 Article-1 */
+
+.bigcontainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.article-1 .div{
+    width: 200px;
+    height: 350px;
+}
+.article-1 .div img{
+    width: 200px;
+    border: 5px solid aqua;
+    border-radius: 10px;
+}
+.article-1 .div h1{
+    padding-top: 16px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.article-1 .div p{
+    padding-top: 15px;
+    font-size: small;
+}
+
+/* MAIN PART SECTION-2 Article-2 */
+
+.article-2 .div{
+    width: 200px;
+    height: 350px;
+}
+.article-2 .div img{
+    width: 200px;
+    border: 5px solid aqua;
+    border-radius: 10px;
+}
+.article-2 .div h1{
+    padding-top: 16px;
+    font-size: 23px;
+    font-weight: bolder;
+}
+.article-2 .div p{
+    padding-top: 15px;
+    font-size: small;
+}
+
+/* MAIN PART SECTION-4 Article-4 */
+
+.article-3 .div{
+    width: 200px;
+    height: 350px;
+}
+.article-3 .div img{
+    width: 200px;
+    border: 5px solid aqua;
+    border-radius: 10px;
+}
+.article-3 .div h1{
+    padding-top: 16px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.article-3 .div p{
+    padding-top: 15px;
+    font-size: small;
+}
+
+/* MAIN PART SECTION-4 Article-4 */
+
+.article-4 .div{
+    width: 200px;
+    height: 350px;
+}
+.article-4 .div img{
+    width: 200px;
+    border: 5px solid aqua;
+    border-radius: 10px;
+}
+.article-4 .div h1{
+    padding-top: 16px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.article-4 .div p{
+    padding-top: 15px;
+    font-size: small;
+}
+
+
+/* FOOTER PART */
+
+footer{
+    width: 100vw;
+    background-color: rgba(0, 128, 0, 0.452);
+}
+
+.foot h1{
+    margin-top: 45px;
+}
+
+.foot li{
+    list-style-type: none;
+    font-size: 40px;
+}
+
+.foot ul{
+    margin-bottom: 35px;
+}
+
+
+
+
+
+
+
+
