@@ -1,2 +1,2 @@
 <h1>Output</h1>
-<img src="Screenshot (76).png">
+<img src="img/Screenshot (76).png">
